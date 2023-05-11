@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #1B1F21;
+}
+
+main {
+    display: flex;
+}
+
+#contactos  {
+    display: flex;
+    flex: 0 0 30%;
+    flex-direction: column;
+}
+#contactos #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px #E8EBE4 solid;
+}
+#contactos #usuario {
+    display: flex;
+    flex-direction: row;
+}
+#contactos #usuario img {
+    margin-right: 20px;
+}
+#contactos #acciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 15px 10px;
+}
+#contactos #chats {
+    list-style: none;
+    padding: 0;
+}
+#contactos #chats li {
+    border-top: 2px #E8EBE4 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+#contactos #chats li img {
+    margin-right: 20px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+}
+#principal img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+.bg-platinum {
+    background-color: #E8EBE4;
+}
+.bg-bluebell {
+    background-color: #A491D2;
+}
+
+.text-gray {
+    color: #BEC1BB;
+}
+.text-online {
+    color: #30bd44;
+}
+
+.text-large {
+    font-size: 45px;
+}
+.text-medium {
+    font-size: 16px;
+}
+.text-small {
+    font-size: 14px;
+}
+.text-x-small {
+    font-size: 12px;
+}
+
+.btn {
+    padding: 15px 50px;
+    border: 0;
+}
+.btn-primary {
+    background-color: #A491D2;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #CDC3E6;
+}
+.btn-primary:focus {
+    background-color: #BEC1BB;
+}
+
+img.thumbnail {
+    border-radius: 100%;
+    border: 2px #E8EBE4 solid;
+}
+img.thumbnail-tiny {
+    width: 50px;
+    height: 50px;
+}
+img.thumbnail-normal {
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
