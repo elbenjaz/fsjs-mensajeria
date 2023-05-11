@@ -14,6 +14,7 @@ main {
     display: flex;
     flex: 0 0 30%;
     flex-direction: column;
+    min-width: 450px;
 }
 #contactos #menu {
     display: flex;
@@ -25,6 +26,7 @@ main {
 #contactos #usuario {
     display: flex;
     flex-direction: row;
+    margin-right: 25px;
 }
 #contactos #usuario img {
     margin-right: 20px;
